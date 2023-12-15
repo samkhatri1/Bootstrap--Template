@@ -1,0 +1,145 @@
+.section{
+   padding-top: 70px;
+   padding-top: 70px;
+}
+
+#header{
+    color: #fff;
+    background-color: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+
+}
+#menu li {
+   display: inline-block;
+
+}
+#menu li  a{
+    color : #fff;
+    padding:  15px 10px;
+    display: block;
+ 
+ }
+ #menu li  a:hover{
+    background-color: #c0392b;
+   text-decoration:  none;
+ }
+ #banner{
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    
+ }
+ #banner-tittle h1{
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+ }
+ #banner-tittle p.lead{
+    color: #fff;
+    background: rgba(231,76,60,0.7);
+    padding: 10px;
+ }
+ #banner-tittle{
+    padding-top: 5rem;
+ }
+ .service-box{
+    text-align: center;
+    padding-top: 20px ;
+ }
+  .section h2.section-head
+   {
+   color: #000;
+   text-align: center;
+   margin-bottom: 40px;
+  }
+  .section h2.section-head:after{
+   background: #e74c3c;
+   content: "";
+   display: block;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto;
+
+  }
+ .service-box i.fa{
+    color: #e74c3c;
+    font-size: 100px;
+    margin-bottom: 10px;
+
+
+ }
+ .steve{
+   height: 100px;
+ }
+ 
+ #testimonials{
+   color :#fff;
+   background-image: url('../images/testtinomial.avif') ;
+   background-size: cover;
+   padding: 50px 0;
+   position: relative;
+
+ }
+ #testimonials:before{
+   background: rgba(52,73,94,0.7);
+   content: "";
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+
+
+ }
+ .testimonial img{
+   border-radius: 90px;
+ }
+
+
+.news-post img{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.news-post h3{
+   font-size: 1.35rem;
+}
+.news-post h3 a{
+   color: #e74c3c;
+}
+.post-date{
+   font-size: 13px;
+   margin-bottom: 2px;
+}
+.post-date:before{
+content: "\f073";
+font-family: FontAwesome;
+}
+a.read-more{
+   font-size: 14px;
+   color: #e74c3c;
+}
+a.read-more:after{
+   content: "\f101";
+   font-family: FontAwesome;
+   padding-left: 5px;
+}
+#footer-sidebar{
+   color: #fff;
+   background: #34495e;
+   margin-top: 50px;
+   
+  
+}
+.footer-g{
+   background: rgb(46, 45, 45);
+   width: 100%;
+   text-align: center;
+}
